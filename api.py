@@ -81,7 +81,7 @@ def mains():
                         for cokis in my_cookes:
                             token = cokis.split('|')[1]
                             count_of_2 = opder_delev_list.count(order_id)
-                            if count_of_2+500 >= quantity:
+                            if count_of_2+700 >= quantity:
                                 print(f"{BG_RED}The Oder Is Complited : {darkblue} {order_id}")
                                 connect.set_orders_completed(order_id)
                                 break
@@ -111,7 +111,7 @@ def mains():
                         for cokis in my_cookes:
                             token = cokis.split('|')[1]
                             count_of_2 = opder_delev_list.count(order_id)
-                            if count_of_2+500 >= quantity:
+                            if count_of_2+700 >= quantity:
                                 connect.update_oder_status(order_id)
                                 print(f"{LI_GREEN}The Oder Is Complited : {LI_WHITE} {order_id}")
                                 print(mahdilinx())
@@ -142,7 +142,7 @@ def mains():
                         for cokis in my_cookes:
                             token = cokis.split('|')[1]
                             count_of_2 = opder_delev_list.count(order_id)
-                            if count_of_2+500 >= quantity:
+                            if count_of_2+700 >= quantity:
                                 connect.update_oder_status(order_id)
                                 print(f"{LI_GREEN}The Oder Is Complited : {LI_WHITE} {order_id}")
                                 print(mahdilinx())
@@ -174,7 +174,7 @@ def mains():
                         for cokis in my_cookes:
                             token = cokis.split('|')[1]
                             count_of_2 = opder_delev_list.count(order_id)
-                            if count_of_2+500 >= quantity:
+                            if count_of_2+700 >= quantity:
                                 connect.update_oder_status(order_id)
                                 print(f"{LI_GREEN}The Oder Is Complited : {LI_WHITE} {order_id}")
                                 print(mahdilinx())
